@@ -14,10 +14,10 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(900, 400, WEBGL);
+  createCanvas(700, 400, WEBGL);
   
   cam=createCapture(VIDEO);
-  cam.size(900, 400);
+  cam.size(700, 400);
   cam.hide();
  
 }

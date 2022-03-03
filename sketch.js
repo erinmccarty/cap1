@@ -72,7 +72,7 @@ function draw(){
   translate(0, 0, 0);
   scale(300);
   
-    rotateX(angle/4);
+  rotateX(angle/4);
   rotateY(angle * 0.17);
   rotateZ(angle * 0.01);
   texture(cam);

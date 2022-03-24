@@ -36,7 +36,7 @@ function draw(){
   
   let camX = map(mouseX, 0, width*2, -200, 200);
   let camY = map(0, mouseY, width*2, -500, 200);
-  camera(camX, camY, height , camX, 0, 0, 0, 1, 0);
+  camera(camX, camY, height , width, 0, 0, 0, 1, 0);
   
   
   

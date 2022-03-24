@@ -69,7 +69,7 @@ function draw(){
   //DOG
   push();
   noStroke();
-  translate(300, 800, 0);
+  translate(300, -800, 0);
   scale(300);
   
   rotateX(angle/4);

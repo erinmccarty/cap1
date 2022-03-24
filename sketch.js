@@ -34,8 +34,8 @@ function draw(){
   //camera(camX, camY, (height / 2) / tan(PI / 6), camX, 0, 0, 0, 1, 0);
   
   
-  let camX = map(mouseX, 0, width*2, -960, 960);
-  let camY = map(0, mouseY, width*2, -540, 540);
+  let camX = map(mouseX, 0, width*2, -1920, 1920);
+  let camY = map(0, mouseY, width*2, -1080, 1080);
   camera(camX, camY, height , width, 0, 0, 0, 1, 0);
   
   
